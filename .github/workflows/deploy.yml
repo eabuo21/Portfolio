@@ -1,0 +1,45 @@
+
+name: deploy to github pages
+
+
+on:
+
+
+push:
+
+
+branches:
+
+
+- main
+
+
+jobs:
+
+
+build:
+
+
+runs-on: ubuntu-latest
+
+
+steps:
+
+
+- name: checkout code
+
+
+uses: actions/checkout@v2
+- name: build and deploy
+
+run: |
+npm run build
+git checkout main
+git rm -rf .
+cp -r ../ .
+git add .
+git commit -m "update github pages"
+git push -u origin main
+
+env:
+GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
