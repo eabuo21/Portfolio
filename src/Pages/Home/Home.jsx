@@ -1,11 +1,16 @@
 import React from "react";
+import Hero from "../../Components/Home/Hero";
 
 const Home = () => {
     return (
         <>
-            <div className="flex  relative top-9 py-8 justify-center items-center font-bold text-4xl text-red font-pap">
-                HOME PAGE
-            </div>
+            <div className="main">
+                <section className="hero-section">
+                    <Hero />
+                </section>
+
+           </div>
+            
         </>
     );
 };

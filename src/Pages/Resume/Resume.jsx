@@ -1,11 +1,19 @@
 import React from "react";
+import { Link } from 'react-router-dom';
+import Cv from '../../Components/Resume/ResumeComp';
 
 const Resume = () => {
     return (
         <>
-            <div className="text-4xl font-bold text-red text-center font-sans flex justify-center items-center relative top-8 py-6 ">
-                RESUME
-            </div>
+            <div className="main flex flex-col">
+                <Link to="/">
+                <button className="bg-red rounded-md hover:bg-gold text-white font-bold text-sm h-auto relative left-10">
+                    &larr; 
+                    </button>
+                    </Link>
+                <Cv />
+               
+           </div>
         </>
     );
 };
