@@ -1,0 +1,17 @@
+.arrow-up{
+    animation: move 0.7s infinite alternate ;
+    animation-duration: 2s;
+    transition: transform  0.7s ease-in-out;
+}
+
+
+@keyframes move{
+    50%{
+        transform: translateY(20px);
+        
+    }
+    100%{
+        transform: translateY(-20px);
+        
+    }
+}
