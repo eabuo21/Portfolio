@@ -15,7 +15,10 @@ const ProHero = () => {
         </section>
 
         <section className="gradient-text-section ">
-          <Link to="#">
+          <Link to="https://github.com/eabuo21"
+            target="_blank"
+          
+          >
             <h4 className="font-bold text-xl text-transparent bg-clip-text bg-gradient-to-br from-red  via-rose-700 to-violet-950">
               Check out my github
             </h4>

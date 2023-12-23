@@ -12,13 +12,13 @@ const Shipped = () => {
           <h4 className="text-[32px] text-grey font-bold font-serif text-center opacity-25">
             Why not both, though?
           </h4>
-              </div>
-              {/*send email button*/}
-              <Link to="/contact">
-                  <button className="email-button  p-3 w-[25vh] bg-gradient-to-br from-red via-red to-violet-950 rounded-[12px] text-white">
-                      Send me an email
-                  </button>
-              </Link>
+        </div>
+        {/*send email button*/}
+        <Link to="/contact">
+          <button className="email-button  p-3 w-[25vh] bg-gradient-to-br from-red via-red to-violet-950 rounded-[12px] text-white">
+            Send me an email
+          </button>
+        </Link>
       </div>
     </>
   );

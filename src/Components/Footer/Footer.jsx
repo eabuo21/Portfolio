@@ -9,6 +9,7 @@ import {
 import { Link } from "react-router-dom";
 
 const Feat = () => {
+  const CurrentYear = new Date().getUTCFullYear();
   return (
     <>
       <div className="feat-container flex flex-col justify-center items-center gap-2 p-2  ">
@@ -20,22 +21,25 @@ const Feat = () => {
        
 
         <div className="icons-section flex flex-row gap-3 p-2 text-white font-bold text-2xl">
-          <Link to="">
+          <Link to="www.linkedin.com/in/emmanuel-abuo-b41453206
+
+"
+target="_blank">
             <FontAwesomeIcon icon={faLinkedin} Linkedin-icon />
           </Link>
-          <Link to="">
+          <Link to="https://github.com/eabuo21" target="_blank">
             <FontAwesomeIcon icon={faGithub} Github-icon />
           </Link>
-          <Link to="">
+          <Link to="https://join.skype.com/invite/OU5I1nkewm74" target="_blank">
             <FontAwesomeIcon icon={faSkype} Skype-icon />
           </Link>
-          <Link to="">
+          <Link to="https://www.facebook.com/praise.lynx.12" target="_blank">
             <FontAwesomeIcon icon={faFacebook} Facebook-icon />
           </Link>
         </div>
 
          <div className="copy-right-text text-white font-bold  font-serif text-2xl text-opacity-30">
-          &copy; Emmanuel Abuo
+          &copy; Emmanuel Abuo  {CurrentYear} 
         </div>
       </div>
     </>

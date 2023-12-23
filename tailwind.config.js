@@ -5,7 +5,6 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ["Open Sans"],
-        "open-sans": ["Open Sans"],
         pap: ["papyrus"],
         cur: ["cursive"],
         ger: ["georgia"],
@@ -38,7 +37,7 @@ module.exports = {
         darkBg: "#1D1D1D",
         primary_yellow: "#F5AD32",
         secondary_yellow: "#FEF5E7",
-        lightGrey: "#F4F4F4", 
+        lightGrey: "#F4F4F4",
         tertiary_gray: "#525252",
         secondary_gray: "#FFF",
         sky_blue: "#C4E2ED",

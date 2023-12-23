@@ -15,3 +15,53 @@
         
     }
 }
+
+
+.cursor{
+    animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+    60%{
+        opacity: 0;
+    }
+}
+
+
+.text-transition-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.text-transition {
+  display: inline-block;
+}
+
+.hidden {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  transition: opacity 1s, visibility 1s;
+}
+
+.visible {
+  opacity: 1;
+  visibility: visible;
+  position: relative;
+  transition: opacity 1s, visibility 1s;
+}
+
+
+
+@media screen and (max-width: 884px){
+  .desktop-navigation{
+display: none;
+  }
+}
+
+
+@media screen and (max-width: 884px){
+.transparent-text{
+display: none;
+}
+}
