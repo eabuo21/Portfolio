@@ -4,7 +4,8 @@ import React from "react";
 const Hero = () => {
   return (
     <>
-      <div className="hero-container flex flex-col gap-2 p-2 mr-3 ml-3 pb-6 pt-16    ">
+      <div
+        className="hero-container flex flex-col gap-2 p-2 mr-3 ml-3 pb-6 pt-16    ">
         <section className="hero-section-padding pb-16    md:flex md:flex-col md:justify-center md:items-center    ">
           <h2 className="hero-heading font-bold  text-white font-serif text-[32px] pb-6       md:text-[48px]  md:w-[62%] ">
             I’m Emmanuel, a Frontend

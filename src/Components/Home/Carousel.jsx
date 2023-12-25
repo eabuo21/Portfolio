@@ -68,26 +68,29 @@ const Testimonial = () => {
           data-aos-anchor-placement="center-bottom"
           data-aos-easing="ease-linear"
           data-aos-duration="1500"
-          className="testimonial-heading font-bold font-serif text-2xl text-white">
+          data-aos-mirror="true"
+          data-aos-once="true"
+          className="testimonial-heading font-bold font-serif text-2xl text-white"
+        >
           Testimonials
         </h1>
         <p
-                data-aos="fade-down"
+          data-aos="fade-in"
           data-aos-anchor-placement="bottom-center"
           data-aos-easing="ease-linear"
           data-aos-duration="2000"
-          className="text-white  text-base font-serif text-center">
+          data-aos-mirror="true"
+          data-aos-once="true"
+          className="text-white  text-base font-serif text-center pb-4"
+        >
           People I've worked with have said some nice things...
         </p>
         <Slider
-        
-        
           {...settings}
           className="w-full h-[fixed] flex flex-row justify-center items-center gap-2 md:gap-9  p-2"
         >
-          <div
-
-            className="slide-1 flex flex-col gap-3 justify-center items-center w-full p-2  ">
+          {/*slide 1*/}
+          <div className="slide-1 flex flex-col gap-3 justify-center items-center w-auto p-2 bg-black rounded-md shadow-current shadow-md    md:bg-transparent md:shadow-none ">
             <div className="image-container w-full flex flex-row justify-center items-center p-1 ">
               <img
                 className="rounded-[50%] w-[150px] h-[150px] "
@@ -100,9 +103,10 @@ const Testimonial = () => {
                 {" "}
                 “
               </span>
-              Emma was a real pleasure to work with and we look forward to
-              working with him again. He’s definitely the kind of developer you
-              can trust with a project from start to finish.
+              Emma was an absolute delight to collaborate with, and we eagerly
+              anticipate future partnerships. His professionalism and commitment
+              make him a developer you can rely on to successfully lead a
+              project from inception to completion.
               <span className="quotation font-bold text-transparent bg-clip-text bg-gradient-to-b from-[red] via-violet-950 to-[violet] font-sans  ">
                 ”
               </span>
@@ -117,7 +121,7 @@ const Testimonial = () => {
 
           {/*slide  2*/}
 
-          <div className="slide-1 flex flex-col gap-3 justify-center items-center w-full p-2  ">
+          <div className="slide-1 flex flex-col gap-3 justify-center items-center w-full p-2     bg-black rounded-md shadow-current shadow-md    md:bg-transparent md:shadow-none ">
             <div className="image-container w-full flex flex-row justify-center items-center p-1 ">
               <img
                 className="rounded-[50%] w-[150px] h-[150px] mx-[4rem]"
@@ -150,7 +154,7 @@ const Testimonial = () => {
 
           {/*slide  3*/}
 
-          <div className="slide-1 flex flex-col gap-3 justify-center items-center w-full p-2  ">
+          <div className="slide-1 flex flex-col gap-3 justify-center items-center w-full p-2   bg-black rounded-md shadow-current shadow-md    md:bg-transparent md:shadow-none ">
             <div className="image-container w-full flex flex-row justify-center items-center p-1 ">
               <img
                 className="rounded-[50%] w-[150px] h-[150px] mx-[4rem]"
@@ -183,7 +187,7 @@ const Testimonial = () => {
 
           {/*slide  4*/}
 
-          <div className="slide-1 flex flex-col gap-3 justify-center items-center w-full p-2  ">
+          <div className="slide-1 flex flex-col gap-3 justify-center items-center w-full p-2   bg-black rounded-md shadow-current shadow-md    md:bg-transparent md:shadow-none ">
             <div className="image-container w-full flex flex-row justify-center items-center p-1 ">
               <img
                 className="rounded-[50%] w-[150px] h-[150px] mx-[4rem]"
@@ -215,7 +219,7 @@ const Testimonial = () => {
 
           {/*slide  5*/}
 
-          <div className="slide-1 flex flex-col gap-3 justify-center items-center w-full p-2  ">
+          <div className="slide-1 flex flex-col gap-3 justify-center items-center w-full p-2   bg-black rounded-md shadow-current shadow-md    md:bg-transparent md:shadow-none ">
             <div className="image-container w-full flex flex-row justify-center items-center p-1 ">
               <img
                 className="rounded-[50%] w-[150px] h-[150px] mx-[4rem]"

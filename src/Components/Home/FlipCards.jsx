@@ -3,6 +3,7 @@ import FlipCards from "../../Components/Home/Flip";
 import Nipc from "../../assets/images/nipc.jpeg";
 import Coffey from "../../assets/images/coffeycrown.png";
 import Tongs from "../../assets/images/tlogo.png";
+import Bj from "../../assets/images/bjtech.jpeg";
 
 function Cards() {
   const card = [
@@ -27,7 +28,7 @@ function Cards() {
         "Adept at project management, I have a track record of successfully leading teams to create and deliver outstanding software solutions.",
     },
     {
-      frontTitle: Nipc,
+      frontTitle: Bj,
       Description: "B-J Technologies Calabar",
       backContent:
         "I am not only a professional but also a true tech enthusiast, staying at the forefront of emerging technologies to ensure my clients receive the best solutions.",

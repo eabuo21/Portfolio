@@ -13,7 +13,7 @@ const Contact = () => {
   }, []);
     return (
         <>
-            <div className=" home-container bg-secondary_black h-[fixed] w-full p-4 ">
+            <div className=" Contact-container bg-secondary_black h-[fixed] w-full p-4 ">
                 <section className="hello-section  pb-2">
                     <Hello/>
                 </section>

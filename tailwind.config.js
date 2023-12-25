@@ -10,6 +10,7 @@ module.exports = {
         ger: ["georgia"],
         serif: [" SF Pro Display"],
         passion: ["Passion One"],
+        dm: ["DM Sans;"],
       },
 
       listStyleType: {
