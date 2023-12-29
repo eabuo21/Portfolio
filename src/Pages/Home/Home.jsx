@@ -46,9 +46,9 @@ const Home = () => {
             backgroundSize: "cover",
           }}
         >
-          <section className="heading-section font-bold font-serif text-3xl text-center  ">
+          <section className="heading-section font-bold font-serif text-xl text-center  ">
             <h1 className="text-transparent bg-clip-text bg-gradient-to-br from-white  via-white to-red">
-              Organizations i've Worked  With & Capacity of  Work Done
+              Organizations i've Worked With & Capacity of Work Done
             </h1>
           </section>
           <FlipsC />

@@ -8,30 +8,36 @@ import Bj from "../../assets/images/bjtech.jpeg";
 function Cards() {
   const card = [
     {
+     org: "NIPC",
       frontTitle: Nipc,
-      Description: "Nigerian Investment Promotion  Commission Abuja",
+      Description: "Technical Support Engr (SIWES)",
       backContent:
-        "My journey in the tech world has been marked by a deep expertise in frontend software development, ensuring that user experiences are not only seamless but exceptional.",
+        "I interned at the Nigerian Investment Promotion Commission for six months. The commission, established by the Nigerian Investment Promotion Act Chapter N117 Laws of the Federation of Nigeria 2004, aims to encourage, promote, and coordinate investments in the Nigerian economy.",
     },
 
     {
+       org: "COFFEYCROWN",
       frontTitle: Coffey,
-      Description: "CoffeyCrown Healthcare Services Toronto ON",
+      Description: "Technical Support Specialist /Web Oops",
       backContent:
-        "I am committed to achieving results and have consistently demonstrated my ability to meet and exceed project goals and deadlines.",
+        "CoffeyCrown excels in turnkey staffing solutions, enabling clients to focus on their core business. I served as a Web Ops and Technical Support Specialist for 9 months under a contract..",
     },
 
     {
-      frontTitle: Tongs,
-      Description: "Tongston Entrepreneurship group Abuja",
-      backContent:
-        "Adept at project management, I have a track record of successfully leading teams to create and deliver outstanding software solutions.",
-    },
-    {
+       org: "BJ-TECH",
       frontTitle: Bj,
-      Description: "B-J Technologies Calabar",
+      Description: "Software Dev /IT Consultant",
       backContent:
-        "I am not only a professional but also a true tech enthusiast, staying at the forefront of emerging technologies to ensure my clients receive the best solutions.",
+        "BJ Technologies is an award-winning IT firm specializing in crafting software solutions and implementing IT projects for clients and governments. I served as a Web Developer and IT Consultant for one year.",
+    },
+
+    
+    {
+       org: "TONGSTON",
+      frontTitle: Tongs,
+      Description: "Software Dev /IT Consultant",
+      backContent:
+        "Tongston, a multi-award-winning group, specializes in entrepreneurial education, enterprise, finance, and media, using technology to drive global sustainable socio-economic development for individuals, government, and institutions. I am a dual-role IT Graduate Consultant Officer and Web Developer at Tongston.",
     },
   ];
 
@@ -49,9 +55,11 @@ function Cards() {
           className=" "
         >
           <FlipCards
+            org={card.org}
             frontTitle={card.frontTitle}
             Description={card.Description}
             backContent={card.backContent}
+
           />
         </div>
       ))}

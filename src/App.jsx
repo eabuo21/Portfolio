@@ -13,7 +13,7 @@ import Head from "../src/Components/Nav/Head";
 function App() {
   return (
     <div className="App">
-      <section className="nav-section ">
+      <section className="nav-section  sticky top-0 z-50">
       <Head/>
       </section>
    

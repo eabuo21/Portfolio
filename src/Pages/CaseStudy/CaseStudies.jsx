@@ -5,7 +5,6 @@ import PreviousPage from "../../Components/Projects-Case-Study/Previous";
 import SubHero from "../../Components/Projects-Case-Study/CaseSubHero";
 import Hero2 from "../../Components/Projects-Case-Study/CaseHero2";
 
-
 const CaseStudies = () => {
   const handleScroll = () => {
     window.scrollTo(0, 0);
@@ -28,10 +27,10 @@ const CaseStudies = () => {
           <SubHero />
         </section>
 
-         <section className="hero-section pb-12">
+        <section className="hero-section pb-12">
           <Hero2 />
         </section>
-        
+
         <section className="">
           <BackTop />
         </section>

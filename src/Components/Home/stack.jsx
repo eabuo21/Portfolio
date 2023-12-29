@@ -1,4 +1,5 @@
 import React from "react";
+import "../../../src/App.css";
 import Stackbg from "../../assets/images/devbg.png";
 import dicon from "../../assets/icons/pcicon.png";
 import Reacticon from "../../assets/icons/reacticon.png";
@@ -37,7 +38,7 @@ const Stack = () => {
                 <div className="2-text-section flex flex-col gap-2">
                   <tex className="font-semibold text-white  font-serif text-2xl">
                     <p> Software</p>
-                    <div className="border-[#930e93] border-4 w-[20vh] " />
+                    <div className="str-line border-[#930e93] border-4 w-[20vh]  md:w-[10vh]  lg:w-[20vh]   " />
                     <p>Development</p>
                   </tex>
                 </div>
@@ -54,7 +55,8 @@ const Stack = () => {
                   </pre>
                 </div>
                 <p className="text-white font-serif text-base">
-                  Experienced in both functional and OOP: MySql, and JavaScript,
+                  Experienced in both functional and OOP: MySql,
+                  Google-Security, GCP, Data-Structures & Algorithms
                 </p>
               </section>
             </div>
@@ -78,8 +80,8 @@ const Stack = () => {
                 <div className="2-text-section flex flex-col gap-2">
                   <tex className="font-semibold text-white  font-serif text-2xl">
                     <p> Frontend Dev</p>
-                    <div className="border-[#4129cb] border-4 w-[20vh] " />
-                    <p>React, NextJS</p>
+                    <div className="str-line-2 border-[#4129cb] border-4 w-[20vh]  md:w-[10vh]  lg:w-[20vh]   " />
+                    <p>React, React-Native</p>
                   </tex>
                 </div>
               </section>
@@ -95,8 +97,9 @@ const Stack = () => {
                   </pre>
                 </div>
                 <p className="text-white font-serif text-base">
-                  Over 2 years of development experience in HTML, CSS, JS and
-                  React
+                  Over 2 years of development experience in HTML5, CSS3,
+                  JAvascript(ES6+), React-Js, Webpack, Babel-Js, Saas/Less,
+                  Tailwind-Css
                 </p>
               </section>
             </div>
@@ -113,16 +116,12 @@ const Stack = () => {
               className="first-section  border-2 border-grey bg-secondary_black w-[300px] h-[fixed]  flex flex-col gap-6 justify-start items-start p-6     md:hover:shadow-current  md:shadow-2xl md:hover:scale-75 md:hover:transition-all   md:hover:duration-1000  md:hover:ease-in-out transition-all duration-1000 ease-in-out     md:w-[400px]"
             >
               <section className="icon-text-con flex flex-row gap-5 justify-between items-start">
-                <img
-                  className="dstp-icon"
-                  src={Reacticon}
-                  alt="desktop-stack"
-                />
+                <img className="dstp-icon" src={dicon} alt="desktop-stack" />
                 <div className="2-text-section flex flex-col gap-2">
                   <tex className="font-semibold text-white  font-serif text-2xl">
-                    <p> Frontend Dev</p>
-                    <div className="border-[#4129cb] border-4 w-[20vh] " />
-                    <p>React, NextJS</p>
+                    <p> Search Engine</p>
+                    <div className="border-[#21db91] border-4 w-[20vh]  md:w-[10vh]  lg:w-[20vh]   " />
+                    <p>Optimization</p>
                   </tex>
                 </div>
               </section>
@@ -138,8 +137,8 @@ const Stack = () => {
                   </pre>
                 </div>
                 <p className="text-white font-serif text-base">
-                  Over 2 years of development experience in HTML, CSS, JS and
-                  React
+                  Proficient in SEO tools, including Google Search Console,
+                  XML-Site-Mapping, Google Indexing, Google Analytics
                 </p>
               </section>
             </div>
@@ -156,16 +155,12 @@ const Stack = () => {
               className="first-section  border-2 border-grey bg-secondary_black w-[300px] h-[fixed]  flex flex-col gap-6 justify-start items-start p-6     md:hover:shadow-current  md:shadow-2xl md:hover:scale-75 md:hover:transition-all   md:hover:duration-1000  md:hover:ease-in-out transition-all duration-1000 ease-in-out   md:w-[400px]"
             >
               <section className="icon-text-con flex flex-row gap-5 justify-between items-start">
-                <img
-                  className="dstp-icon"
-                  src={Reacticon}
-                  alt="desktop-stack"
-                />
+                <img className="dstp-icon" src={dicon} alt="desktop-stack" />
                 <div className="2-text-section flex flex-col gap-2">
                   <tex className="font-semibold text-white  font-serif text-2xl">
-                    <p> Frontend Dev</p>
-                    <div className="border-[#4129cb] border-4 w-[20vh] " />
-                    <p>React, NextJS</p>
+                    <p> CICD </p>
+                    <div className="border-[#930e93] border-4 w-[20vh]  md:w-[10vh]  lg:w-[20vh]   " />
+                    <p>Pipeline </p>
                   </tex>
                 </div>
               </section>
@@ -181,8 +176,8 @@ const Stack = () => {
                   </pre>
                 </div>
                 <p className="text-white font-serif text-base">
-                  Over 2 years of development experience in HTML, CSS, JS and
-                  React
+                  Rest APIs, 3rd party APIs Integrations, CICD (Github Actions),
+                  Jest, Version Control (Git & Git-Bash)
                 </p>
               </section>
             </div>
@@ -199,16 +194,12 @@ const Stack = () => {
               className="first-section  border-2 border-grey bg-secondary_black w-[300px] h-[fixed]  flex flex-col gap-6 justify-start items-start p-6    md:hover:shadow-current  md:shadow-2xl md:hover:scale-75 md:hover:transition-all   md:hover:duration-1000  md:hover:ease-in-out transition-all duration-1000 ease-in-out     md:w-[400px]"
             >
               <section className="icon-text-con flex flex-row gap-5 justify-between items-start">
-                <img
-                  className="dstp-icon"
-                  src={Reacticon}
-                  alt="desktop-stack"
-                />
+                <img className="dstp-icon" src={dicon} alt="desktop-stack" />
                 <div className="2-text-section flex flex-col gap-2">
                   <tex className="font-semibold text-white  font-serif text-2xl">
-                    <p> Frontend Dev</p>
-                    <div className="border-[#4129cb] border-4 w-[20vh] " />
-                    <p>React, NextJS</p>
+                    <p> Software Deployment & </p>
+                    <div className="border-[#4129cb] border-4 w-[20vh]  md:w-[10vh]  lg:w-[20vh]   " />
+                    <p>Integrations</p>
                   </tex>
                 </div>
               </section>
@@ -224,8 +215,8 @@ const Stack = () => {
                   </pre>
                 </div>
                 <p className="text-white font-serif text-base">
-                  Over 2 years of development experience in HTML, CSS, JS and
-                  React
+                  Over 2 years of deployment experience using C-panel,
+                  Hostinger, Go-daddy 000webhost & Netlify
                 </p>
               </section>
             </div>
@@ -242,16 +233,12 @@ const Stack = () => {
               className="first-section  border-2 border-grey bg-secondary_black w-[300px] h-[fixed]  flex flex-col gap-6 justify-start items-start p-6     md:hover:shadow-current  md:shadow-2xl md:hover:scale-75 md:hover:transition-all   md:hover:duration-1000  md:hover:ease-in-out transition-all duration-1000 ease-in-out    md:w-[400px]"
             >
               <section className="icon-text-con flex flex-row gap-5 justify-between items-start">
-                <img
-                  className="dstp-icon"
-                  src={Reacticon}
-                  alt="desktop-stack"
-                />
+                <img className="dstp-icon" src={dicon} alt="desktop-stack" />
                 <div className="2-text-section flex flex-col gap-2">
                   <tex className="font-semibold text-white  font-serif text-2xl">
-                    <p> Frontend Dev</p>
-                    <div className="border-[#4129cb] border-4 w-[20vh] " />
-                    <p>React, NextJS</p>
+                    <p> CMS</p>
+                    <div className="border-[#21db91] border-4 w-[20vh]  md:w-[10vh]  lg:w-[20vh]   " />
+                    <p>CDN </p>
                   </tex>
                 </div>
               </section>
@@ -267,8 +254,7 @@ const Stack = () => {
                   </pre>
                 </div>
                 <p className="text-white font-serif text-base">
-                  Over 2 years of development experience in HTML, CSS, JS and
-                  React
+                  Wordpress.com/Elementor, Wordpress.org(with php), Wix, Webflow
                 </p>
               </section>
             </div>

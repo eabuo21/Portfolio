@@ -1,12 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import Tongston from "../../assets/images/tongston.png";
-import Thd from "../../assets/images/thd.png";
-import Thm from "../../assets/images/thm.png";
-import Tvd from "../../assets/images/tvd.png";
-import Tvm from "../../assets/images/tvm.png";
-import Urld from "../../assets/images/urlshortd.jpg";
-import Urlm from "../../assets/images/urshortm.jpg";
+import Holdd from "../../assets/images/Projects-pix/Holdd.png";
+import Ventd from "../../assets/images/Projects-pix/Ventd.png";
+import Urld from "../../assets/images/Projects-pix/Urld.png";
 import Logbook from "../../assets/images/logbook.jpg";
 
 const Projects = () => {
@@ -21,11 +17,10 @@ const Projects = () => {
               Tongston Website
             </h1>
             <p className=" font-normal text-white text-base font-serif   pb-6  md:w-[65%]  md:text-xl  md:pb-6">
-              As a dedicated Frontend Developer, I had the privilege of
-              contributing to the creation of the Tongston website. I brought to
-              life the vision of this dynamic company by crafting user-friendly
-              interfaces. I played a pivotal role in making Tongston's online
-              presence a true reflection of their innovative spirit.
+              As a committed Frontend Developer, I played a key role in shaping
+              the Tongston website, translating the company's vision into
+              user-friendly interfaces. My contributions were instrumental in
+              aligning Tongston's online presence with their innovative spirit
             </p>
 
             <div className="buttons-section flex flex-row gap-3 pb-6 justify-start items-start p-2  text-white text-base  md:gap-3  md:pb-6">
@@ -52,7 +47,8 @@ const Projects = () => {
              pt-8 p-3  pb-16  md:flex-row"
             >
               <div className="impact-text-percentage flex flex-col gap-1 justify-center items-start text-white font-serif font-semibold text-4xl">
-                <h3>8%</h3>;<p className="text-base">Increase in SEO ranking</p>
+                <h3>40%</h3>
+                <p className="text-base">Increase in SEO ranking</p>
               </div>
             </section>
           </div>
@@ -60,7 +56,7 @@ const Projects = () => {
           <div className="flex flex-row gap-0 justify-start items0-start  md:relative md:mr-[8rem]  md:w-full ">
             <img
               className="project-image h-[177px] w-[400px]   pb-9    md:w-[473px] md:h-[250px]"
-              src={Logbook}
+              src={Holdd}
               alt="project-image  "
             />
           </div>
@@ -73,11 +69,10 @@ const Projects = () => {
               Tongston Ventures Website
             </h1>
             <p className=" font-normal text-white text-base font-serif  pb-6   md:w-[75%]  md:text-xl    md:pb-6 ">
-              As a dedicated Frontend Developer, I had the privilege of
-              contributing to the creation of the Tongston website. I brought to
-              life the vision of this dynamic company by crafting user-friendly
-              interfaces. I played a pivotal role in making Tongston's online
-              presence a true reflection of their innovative spirit.
+              As a committed Software Developer, I played a key role in the Development of
+              the Tongston-Ventures website, translating the company's vision into
+              user-friendly interfaces. My contributions were instrumental in
+              aligning Tongston's online presence with their innovative spirit
             </p>
 
             <div className="buttons-section flex flex-row gap-1 justify-start items-start p-2  text-white text-base gap-3 pb-6   md:gap-3  md:pb-6 ">
@@ -106,8 +101,8 @@ const Projects = () => {
              h-[15vh]  pt-8 p-3  pb-16  md:flex-row"
             >
               <div className="impact-text-percentage flex flex-col gap-1 justify-center items-start text-white font-serif font-semibold text-4xl">
-                <h3>8%</h3>
-                <p className="text-base">Increase in SEO ranking</p>
+                <h3>95%</h3>
+                <p className="text-base">Increase in Web Security & Visibility(SEO- Ranking)</p>
               </div>
             </section>
           </div>
@@ -115,7 +110,7 @@ const Projects = () => {
           <div className="flex flex-row gap-0 justify-start items0-start  w-full      md:relative   md:p-4  ">
             <img
               className="project-image h-[177px] w-[400px]  pb-9      md:w-[473px] md:h-[250px] "
-              src={Logbook}
+              src={Ventd}
               alt="project-image"
             />
           </div>
@@ -128,11 +123,10 @@ const Projects = () => {
               E-Logbook for SIWES
             </h1>
             <p className=" font-normal text-white text-base font-serif  pb-6   md:w-[65%]  md:text-xl  md:pb-6 ">
-              As a dedicated Frontend Developer, I had the privilege of
-              contributing to the creation of the Tongston website. I brought to
-              life the vision of this dynamic company by crafting user-friendly
-              interfaces. I played a pivotal role in making Tongston's online
-              presence a true reflection of their innovative spirit.
+              As my final year project, the SIWES Electronic Logbook showcases
+              my dedication to innovating student industrial training. Developed
+              with PHP and MySQL, it ensures secure digital logging and fosters
+              seamless intern-supervisor interaction
             </p>
 
             <div className="buttons-section flex flex-row gap-1 justify-start items-start p-2  gap-3 pb-6  text-white text-base md:pb-6">
@@ -155,8 +149,8 @@ const Projects = () => {
              h-[15vh]  pt-8 p-3  pb-16  md:flex-row"
             >
               <div className="impact-text-percentage flex flex-col gap-1 justify-center items-start text-white font-serif font-semibold text-4xl">
-                <h3>8%</h3>
-                <p className="text-base">Increase in SEO ranking</p>
+                <h3>80%</h3>
+                <p className="text-base">Increase in Supervisor-Intern Experience</p>
               </div>
             </section>
           </div>
@@ -176,11 +170,10 @@ const Projects = () => {
               Url Shortener With Qr Code
             </h1>
             <p className=" font-normal text-white text-base font-serif   pb-6  md:w-[75%]  md:text-xl  md:pb-6">
-              As a dedicated Frontend Developer, I had the privilege of
-              contributing to the creation of the Tongston website. I brought to
-              life the vision of this dynamic company by crafting user-friendly
-              interfaces. I played a pivotal role in making Tongston's online
-              presence a true reflection of their innovative spirit.
+              Discover simplicity with our advanced URL Shortener—transform
+              lengthy web addresses into concise links. Share seamlessly,
+              embracing clear and efficient messaging for an elevated online
+              presence
             </p>
 
             <div className="buttons-section flex flex-row gap-1 justify-start items-start p-2  text-white text-base  pb-6   md:pb-6">
@@ -199,15 +192,15 @@ const Projects = () => {
              h-[15vh]  pt-8 p-3  pb-16  md:flex-row"
             >
               <div className="impact-text-percentage flex flex-col gap-1 justify-center items-start text-white font-serif font-semibold text-4xl">
-                <h3>8%</h3>
-                <p className="text-base">Increase in SEO ranking</p>
+                <h3>100%</h3>
+                <p className="text-base">Link-Qr-Shortening Efficiency</p>
               </div>
             </section>
           </div>
           <div className="flex flex-row gap-0 justify-start items0-start  w-full      md:relative   md:p-4  ">
             <img
               className="project-image h-[177px] w-[400px]  pb-9        md:w-[473px] md:h-[250px]"
-              src={Logbook}
+              src={Urld}
               alt="project-image"
             />
           </div>

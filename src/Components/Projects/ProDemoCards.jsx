@@ -1,36 +1,40 @@
 import React from "react";
 import ProDemo from "../../Components/Projects/ProDemo";
-import Tongston from "../../assets/images/tongston.png";
+import Holdd from "../../assets/images/Projects-pix/Holdd.png";
+import Ventd from "../../assets/images/Projects-pix/Ventd.png";
+import Logbook from "../../assets/images/logbook.jpg";
+import Urld from "../../assets/images/Projects-pix/Urld.png";
 
 function Procards() {
   const Cards = [
     {
-      image: Tongston,
-      link2: "",
+      image: Holdd,
+      link2: "https://tongston.com",
       text: "View Case Study",
       link: "/case_study",
     },
 
     {
-      image: Tongston,
-      link2: "",
+      image: Ventd,
+      link2: "https://t-ventures.tongston.com",
       text: "View Case Study",
-      link:"/case_study",
+      link: "/case_study",
     },
 
     {
-      image: Tongston,
-      link2: "",
+      image: Logbook,
+      link2: "https://github.com/eabuo21/Final-Year-Bsc-Project",
       text: "View Case Study",
-      link:"/case_study",
+      link: "/case_study",
     },
 
     {
-      image: Tongston,
-      link2: "",
+      image: Urld,
+      link2: "https://github.com/eabuo21/Url-Shorten",
       text: "View Case Study",
-      link:"/case_study",
+      link: "/case_study",
     },
+
   ];
 
   return (

@@ -53,7 +53,7 @@
 
 
 
-@media screen and (max-width: 884px){
+@media screen and (max-width: 1024px){
   .desktop-navigation{
 display: none;
   }
@@ -88,6 +88,4 @@ display: none;
     opacity: 1;
   }
 }
-
-
 

@@ -8,22 +8,19 @@ const Navigation = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const navigationLinks = [
- 
-
     { name: "Projects", to: "/projects" },
-        { name: "Contact", to: "/contact" },
+    { name: "Contact", to: "/contact" },
     { name: "Resume", to: "/resume" },
   ];
 
   return (
-    <Disclosure as="nav" className="bg-secondary_black p-4  ">
+    <Disclosure as="nav" className="bg-secondary_black p-4    ">
       {({ open }) => (
         <>
-          <div className="container mx-auto flex items-center justify-between ">
+          <div className="container mx-auto flex items-center justify-between  ">
             {/* Logo */}
             <div className="flex-shrink-0 text-white ">
-              <Link to="/"
-               onClick={() => setMenuOpen(false)}>
+              <Link to="/" onClick={() => setMenuOpen(false)}>
                 <div className="my-logo p-2 bg-gradient-to-br from-red  to-violet-950 rounded-[50%] font-bold text-[32px] font-passion text-white">
                   EA
                 </div>
@@ -82,7 +79,6 @@ const Navigation = () => {
           >
             <Disclosure.Panel className="lg:hidden bg-secondary_black fixed inset-0 z-50 w-auto flex flex-col justify-center items-center gap-4 text-2xl">
               <div className="flex flex-col space-y-4 p-4">
-                
                 {navigationLinks.map((link) => (
                   <Link
                     key={link.name}
@@ -93,8 +89,10 @@ const Navigation = () => {
                     {link.name}
                   </Link>
                 ))}
-                <button   onClick={() => setMenuOpen(false)}
-                  className="close-button text-4xl text-white border-2 border-grey  p-1">
+                <button
+                  onClick={() => setMenuOpen(false)}
+                  className="close-button text-4xl text-white border-2 border-grey  p-1"
+                >
                   X
                 </button>
               </div>
