@@ -15,7 +15,8 @@ const Shipped = () => {
         </div>
         {/*send email button*/}
         <Link to="/contact">
-          <button className="email-button  p-3 w-[25vh] bg-gradient-to-br from-red via-red to-violet-950 rounded-[12px] text-white">
+          <button className="email-button  p-3 w-[25vh] bg-gradient-to-br from-red via-red to-violet-950 rounded-[12px] text-white
+          hover:bg-gradient-to-br  hover:from-blue-200 hover:to-blue-700">
             Send me an email
           </button>
         </Link>

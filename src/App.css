@@ -72,7 +72,8 @@ display: none;
 
 .home-container,
 .projects-container,
-.Contact-container
+.Contact-container,
+.resume-container
    {
   animation: fadeInAnimation ease 3s;
   animation-iteration-count: 1;

@@ -5,10 +5,14 @@ const Hero = () => {
   return (
     <>
       <div className="hero-container p-2 flex flex-col gap-6 justify-start items-start mx-auto   md:px-16">
-        <section className="first-hero-section flex flex-col gap-3 justify-center items-start  p-2  pb-8     
-      ">
-          <h4 className=" font-dm text-white font-[500] text-3xl text-left     
-          md:text-6xl  md:font-semibold   ">
+        <section
+          className="first-hero-section flex flex-col gap-3 justify-center items-start  p-2  pb-8     
+      "
+        >
+          <h4
+            className=" font-dm text-white font-[500] text-3xl text-left     
+          md:text-6xl  md:font-semibold   "
+          >
             Enhancing Service Page for Improved Performance and Reduced Costs
           </h4>
           <h6 className="text-white font-sm font-[24px] text-left text-opacity-20">
@@ -24,9 +28,10 @@ const Hero = () => {
             socio-economic development.
           </h4>
 
-          <content className="multiple-items-container flex flex-col gap-4 p-2 justify-start items-start    
-          md:flex-row  md:justify-between  md:gap-0 flex-shrink-0 md:items-start   md:w-full ">
-
+          <content
+            className="multiple-items-container flex flex-col gap-4 p-2 justify-start items-start    
+          md:flex-row  md:justify-between  md:gap-0 flex-shrink-0 md:items-start   md:w-full "
+          >
             <div className="1st-div  flex flex-col gap-3 justify-start items-start ">
               <h2 className=" text-white font-dm text-2xl text-left ">Role</h2>
               <h3 className=" text-white font-dm text-2xl text-left text-opacity-20">
@@ -49,8 +54,6 @@ const Hero = () => {
             </div>
           </content>
         </section>
-
-            
       </div>
     </>
   );
