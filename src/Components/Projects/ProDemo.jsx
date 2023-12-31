@@ -9,7 +9,7 @@ const ProDemo = ({ image, text, link, link2 }) => {
         <Link to={link2} target="_blank">
           
         <img
-          className="project-image w-full h-auto pb-2  rounded-md md:w-[550px] md:h-[]"
+          className="project-image w-full h-auto pb-2  rounded-md md:w-[350px]     lg:w-[550px]"
           src={image}
           alt="projects-image"
           />

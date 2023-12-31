@@ -18,7 +18,7 @@ const Testimonial = () => {
     slidesToScroll: 1,
     arrows: false,
 
-    adaptiveHeight: false,
+    adaptiveHeight: true,
     accessibility: true,
     autoplay: true,
     autoplaySpeed: 7000,
@@ -50,10 +50,10 @@ const Testimonial = () => {
       return (
         <div
           key={i}
-          className={`custom-dot flex flex-col justify-center items-center hover:border-2 -red border-2     border-white  rounded-[50%] h-[20px] p-2 transition-all transition-duration-800 ease-in-out ${
+          className={`custom-dot flex flex-col justify-center items-center hover:border-2 -red border-2     border-white  rounded-[50%]  h-[20px] p-2 transition-all transition-duration-800 ease-in-out ${
             i === activeIndex
               ? "active"
-              : "    border-blue-800  bg-gradient-to-r from-[red] to-violet-950  border-t-blue-950  transition-all transition-duration-800 ease-in-out" // Add a class for the active dot
+              : "    bg-gradient-to-r from-[red] to-violet-950  border-t-blue-950 border-b-red border-l-red border-r-blue-950   transition-all transition-duration-800 ease-in-out" // Add a class for the active dot
           }`}
         ></div>
       );
@@ -87,13 +87,13 @@ const Testimonial = () => {
         </p>
         <Slider
           {...settings}
-          className="w-full h-[fixed] flex flex-row justify-center items-center gap-2 md:gap-9  p-2"
+          className="w-full h-[fixed] flex flex-row justify-around  items-start gap-16 md:gap-9  p-2  "
         >
           {/*slide 1*/}
           <div className="slide-1 flex flex-col gap-3 justify-center items-center w-auto p-2 bg-black rounded-md shadow-current shadow-md    md:bg-transparent md:shadow-none ">
             <div className="image-container w-full flex flex-row justify-center items-center p-1 ">
               <img
-                className="rounded-[50%] w-[150px] h-[150px] "
+                className="rounded-[50%] shadow-current  shadow-md w-[150px] h-[150px] "
                 src={paul}
                 alt="testimonial-image"
               />
@@ -124,7 +124,7 @@ const Testimonial = () => {
           <div className="slide-1 flex flex-col gap-3 justify-center items-center w-full p-2     bg-black rounded-md shadow-current shadow-md    md:bg-transparent md:shadow-none ">
             <div className="image-container w-full flex flex-row justify-center items-center p-1 ">
               <img
-                className="rounded-[50%] w-[150px] h-[150px] mx-[4rem]"
+                className="rounded-[50%] shadow-current  shadow-md w-[150px] h-[150px] mx-[4rem]"
                 src={Blessing}
                 alt="testimonial-image"
               />
@@ -157,7 +157,7 @@ const Testimonial = () => {
           <div className="slide-1 flex flex-col gap-3 justify-center items-center w-full p-2   bg-black rounded-md shadow-current shadow-md    md:bg-transparent md:shadow-none ">
             <div className="image-container w-full flex flex-row justify-center items-center p-1 ">
               <img
-                className="rounded-[50%] w-[150px] h-[150px] mx-[4rem]"
+                className="rounded-[50%] shadow-current  shadow-md w-[150px] h-[150px] mx-[4rem]"
                 src={Victor}
                 alt="testimonial-image"
               />
@@ -190,7 +190,7 @@ const Testimonial = () => {
           <div className="slide-1 flex flex-col gap-3 justify-center items-center w-full p-2   bg-black rounded-md shadow-current shadow-md    md:bg-transparent md:shadow-none ">
             <div className="image-container w-full flex flex-row justify-center items-center p-1 ">
               <img
-                className="rounded-[50%] w-[150px] h-[150px] mx-[4rem]"
+                className="rounded-[50%] shadow-current  shadow-md w-[150px] h-[150px] mx-[4rem]"
                 src={Charles}
                 alt="testimonial-image"
               />
@@ -222,7 +222,7 @@ const Testimonial = () => {
           <div className="slide-1 flex flex-col gap-3 justify-center items-center w-full p-2   bg-black rounded-md shadow-current shadow-md    md:bg-transparent md:shadow-none ">
             <div className="image-container w-full flex flex-row justify-center items-center p-1 ">
               <img
-                className="rounded-[50%] w-[150px] h-[150px] mx-[4rem]"
+                className="rounded-[50%] shadow-current  shadow-md w-[150px] h-[150px] mx-[4rem]"
                 src={Ug}
                 alt="testimonial-image"
               />

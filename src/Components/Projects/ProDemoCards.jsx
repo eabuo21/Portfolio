@@ -10,28 +10,28 @@ function Procards() {
     {
       image: Holdd,
       link2: "https://tongston.com",
-      text: "View Case Study",
+      text: "Tongston Holdings",
       link: "/case_study",
     },
 
     {
       image: Ventd,
       link2: "https://t-ventures.tongston.com",
-      text: "View Case Study",
+      text: "Tongston Ventures",
       link: "/case_study",
     },
 
     {
       image: Logbook,
       link2: "https://github.com/eabuo21/Final-Year-Bsc-Project",
-      text: "View Case Study",
+      text: "Electronic Logbook ",
       link: "/case_study",
     },
 
     {
       image: Urld,
       link2: "https://github.com/eabuo21/Url-Shorten",
-      text: "View Case Study",
+      text: "Url Shortener",
       link: "/case_study",
     },
 

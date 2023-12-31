@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import ContactModal from "../../Components/contact/ContactModal";
 import emailjs from "@emailjs/browser";
 import {
   showErrorNotification,
@@ -12,6 +13,16 @@ const Hello = () => {
   const [message, setMessage] = useState("");
   const [loading, setLoading] = useState(false);
 
+  //logic to handle the modal display
+
+  const [showcontactmodal, setShowContactModal] = useState(false);
+  const handleContactModal = () => {
+    setShowContactModal(true);
+  };
+  const handleCloseContactModal = () => {
+    setShowContactModal(false);
+  };
+
   const handleSubmit = (event) => {
     event.preventDefault();
     setLoading(true);
@@ -23,8 +34,18 @@ const Hello = () => {
       message: message,
     };
 
+    // Access environment variables
+    //const serviceId = import.meta.env.VITE_REACT_APP_EMAILJS_SERVICE_ID;
+    //const templateId = import.meta.env.VITE_REACT_APP_EMAILJS_TEMPLATE_ID;
+    //const userId = import.meta.env.VITE_REACT_APP_EMAILJS_USER_ID;
+
     emailjs
-      .send("service_id", "template_id", templateParams, "Api_key")
+      .send(
+        "service_m0sgj2s",
+        "template_ahwj8fl",
+        templateParams,
+        "NPd7Wszo4kPAco2ad"
+      )
       .then((response) => {
         setLoading(false);
         showSuccessNotification(" Submitted ");

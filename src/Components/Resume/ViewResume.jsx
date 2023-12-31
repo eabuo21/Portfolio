@@ -17,7 +17,7 @@ function ViewResume() {
       <div className="  ">
         <button
           onClick={() => handleView()}
-                  className="bg-gradient-to-br from-red to-[#900690] p-3 w-[45vh] h-[10vh] rounded-md  text-white font-bold font-serif text-xl
+          className="bg-gradient-to-br from-red to-[#900690] p-3 w-[45vh] h-[10vh] rounded-md  text-white font-bold font-serif text-xl
           hover:bg-gradient-to-br  hover:from-blue-200 hover:to-blue-700"
         >
           View Resume

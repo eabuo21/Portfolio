@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronUp } from "@fortawesome/free-solid-svg-icons";
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 
-const FlipCard = ({ frontTitle, org, Description,  backContent }) => {
+const FlipCard = ({ frontTitle, Description, backContent }) => {
   const [isFlipped, setIsFlipped] = useState(false);
 
   const handleCardFlip = () => {
@@ -29,31 +29,35 @@ const FlipCard = ({ frontTitle, org, Description,  backContent }) => {
         className="front-card  w-[300px] h-[260px]  bg-gradient-to-b from-black  to-black   border-t-red border-l-red  border-b-violet-950  border-r-violet-950 justify-center items-center  flex cursor-pointer rounded-md shadow-current shadow-xl md:w-[40vh] "
       >
         <div className="image-container w-full flex flex-col gap-3 justify-center items-center p-1 ">
-          <h4 className="text-white font-bold font-dm  text-xl text-center pb-6">
-            {org}
-          </h4>
-              <img
-                className="rounded-[50%] w-[150px] h-[150px] shadow-current shadow-xl "
-                src={frontTitle}
-                alt="testimonial-image"
+          <img
+            className="rounded-[50%] w-[150px] h-[150px] shadow-current shadow-xl "
+            src={frontTitle}
+            alt="testimonial-image"
           />
-           
-          <FontAwesomeIcon icon={faChevronUp} arrow-up className="text-white  text-xl transition-all ease-in-out duration-1000 animate-bounce font-bold"/>
+
+          <FontAwesomeIcon
+            icon={faChevronUp}
+            arrow-up
+            className="text-white  text-xl transition-all ease-in-out duration-1000 animate-bounce font-bold"
+          />
         </div>
-       
       </div>
-     
+
       <div
         onClick={handleCardFlip}
         className="back-card  w-[300px] h-[260px] bg-black justify-center items-center flex flex-col gap-2 cursor-pointer rounded-md shadow-current shadow-lg  md:w-[40vh]"
       >
-         <h2 className=" font-passion text-white font-bold text-base  text-center">
-        {Description}
-          </h2>
+        <h2 className=" font-passion text-white font-bold text-base  text-center">
+          {Description}
+        </h2>
         <p className="text-white text-center font-serif  text-sm  ">
           {backContent}
         </p>
- <FontAwesomeIcon icon={faChevronDown} arrow-down className="text-red  text-xl transition-all ease-in-out duration-1000 animate-bounce font-bold"/>
+        <FontAwesomeIcon
+          icon={faChevronDown}
+          arrow-down
+          className="text-red  text-xl transition-all ease-in-out duration-1000 animate-bounce font-bold"
+        />
       </div>
     </CardFlip>
   );

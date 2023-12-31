@@ -8,7 +8,7 @@ import Bj from "../../assets/images/bjtech.jpeg";
 function Cards() {
   const card = [
     {
-     org: "NIPC",
+   
       frontTitle: Nipc,
       Description: "Technical Support Engr (SIWES)",
       backContent:
@@ -16,7 +16,7 @@ function Cards() {
     },
 
     {
-       org: "COFFEYCROWN",
+    
       frontTitle: Coffey,
       Description: "Technical Support Specialist /Web Oops",
       backContent:
@@ -24,7 +24,7 @@ function Cards() {
     },
 
     {
-       org: "BJ-TECH",
+   
       frontTitle: Bj,
       Description: "Software Dev /IT Consultant",
       backContent:
@@ -33,7 +33,7 @@ function Cards() {
 
     
     {
-       org: "TONGSTON",
+  
       frontTitle: Tongs,
       Description: "Software Dev /IT Consultant",
       backContent:
@@ -55,7 +55,7 @@ function Cards() {
           className=" "
         >
           <FlipCards
-            org={card.org}
+          
             frontTitle={card.frontTitle}
             Description={card.Description}
             backContent={card.backContent}
