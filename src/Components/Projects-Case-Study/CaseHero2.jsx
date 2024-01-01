@@ -1,5 +1,5 @@
 import React from "react";
-import Logbook from "../../assets/images/logbook.jpg";
+import Logbook from "../../assets/images/Projects-pix/Holdd.png";
 import { Link } from "react-router-dom";
 
 const Hero2 = () => {
@@ -8,25 +8,107 @@ const Hero2 = () => {
       <div className="hero-container p-2 flex flex-col gap-6 justify-start items-start mx-auto space-x-auto     md:px-16">
         <section className="first-hero-section flex flex-col gap-3 justify-center items-start  p-2  pb-8">
           <h4 className=" font-dm text-white font-[500] text-3xl text-left   md:text-6xl md:font-semibold ">
-            Enhancing Service Page for Improved Performance and Reduced Costs
+            Elevating Online Presence for Tongston Holdings
           </h4>
         </section>
 
         <section className="second-hero-section flex flex-col gap-3 justify-center items-start  p-2   pb-16">
           <h4 className=" font-dm text-white font-normal text-xl text-left pb-6   md:text-2xl">
-            Tongston is a multi-award winning group focused on entrepreneurial
-            education, enterprise, finance and media leveraging on technology
-            for people, government and institutions to drive global sustainable
-            socio-economic development.
+            In an era dominated by digital interactions, Tongston Holdings
+            recognized the paramount importance of a robust online presence in
+            fostering business growth and nurturing client relationships. To
+            meet this imperative, we embarked on a transformative journey to
+            craft a dynamic and comprehensive business development website.
           </h4>
         </section>
 
         <section className="second-hero-section flex flex-col gap-3 justify-center items-start  p-2">
-          <h4 className=" font-dm text-white font-normal text-3xl text-left pb-6  md:text-4xl  md:font-semibold">
-            Tongston is a multi-award winning group focused on entrepreneurial
-            education, enterprise, finance and media leveraging on technology
-            for people, government and institutions to drive global sustainable
-            socio-economic development.
+          <heading className=" font-dm text-white font-normal text-3xl text-left pb-6  md:text-6xl  md:font-semibold">
+            {" "}
+            Statement of the Problem
+          </heading>
+          <h4 className=" font-dm text-white font-normal text-xl text-left pb-6  md:text-2xl  md:font-semibold  pb-8d">
+            Tongston Holdings faced the challenge of establishing and
+            maintaining a robust online presence that effectively communicated
+            its core values, offerings, and achievements. In an increasingly
+            digital landscape, the lack of a centralized platform hindered the
+            company's ability to showcase its entirety to clients, engage
+            potential partners, streamline recruitment processes, and stay agile
+            with timely industry updates.
+          </h4>
+
+          <h4 className=" font-dm text-white font-normal text-xl text-left pb-6  md:text-2xl  md:font-semibold pb-4">
+            To address the identified challenges and pain points, our approach
+            centered on the strategic development of a business development
+            website that seamlessly combines cutting-edge technologies,
+            user-centric design, and effective communication strategies.
+          </h4>
+
+          <h1 className="text-white font-bold text-md text-3xl md:text-6xl pb-3">
+            Technology Stack
+          </h1>
+
+          <section className="second-hero-section flex flex-col gap-3 justify-center items-start  p-2    md:w-[80%] md:mx-auto">
+            <h4 className=" font-dm text-white font-normal text-xl text-left pb-6   md:text-2xl  md:w-full">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-red to-violet-700  font-bold text-2xl pb-3">
+                React.js{" "}
+              </span>
+              Leveraged the power of React.js to build a dynamic and interactive
+              user interface, ensuring a smooth and engaging browsing experience
+              for visitors.
+            </h4>
+          </section>
+
+          <section className="second-hero-section flex flex-col gap-3 justify-center items-start  p-2    md:w-[80%] md:mx-auto">
+            <h4 className=" font-dm text-white font-normal text-xl text-left pb-6   md:text-2xl  md:w-full">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-red to-violet-700  font-bold text-2xl pb-3">
+                HTML5 and CSS{" "}
+              </span>
+              Utilized modern HTML5 and CSS techniques to structure and style
+              the website, adhering to the latest web standards for optimal
+              performance and responsiveness.
+            </h4>
+          </section>
+
+          {/*section-outer*/}
+
+          <h1 className="text-white font-bold text-md text-3xl md:text-6xl pb-3">
+            User-Centric Design
+          </h1>
+
+          <section className="second-hero-section flex flex-col gap-3 justify-center items-start  p-2    md:w-[80%] md:mx-auto">
+            <h4 className=" font-dm text-white font-normal text-xl text-left pb-6   md:text-2xl  md:w-full">
+              Employed a user-centric design approach to create an intuitive
+              navigation structure, ensuring visitors can easily explore
+              [Company Name]'s core values, offerings, and news updates
+            </h4>
+          </section>
+
+          {/*section-outer*/}
+
+          <h1 className="text-white font-bold text-md text-3xl md:text-6xl pb-3">
+            Seamless Communication
+          </h1>
+
+          <section className="second-hero-section flex flex-col gap-3 justify-center items-start  p-2    md:w-[80%] md:mx-auto">
+            <h4 className=" font-dm text-white font-normal text-xl text-left pb-6   md:text-2xl  md:w-full">
+              Integrated{" "}
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-red to-violet-700  font-bold text-2xl pb-3">
+                {" "}
+                EmailJS{" "}
+              </span>
+              to streamline communication processes, enabling effortless job
+              applications and inquiries. This feature enhances user experience
+              by simplifying the interaction between [Company Name] and
+              potential clients, partners, and job applicants.
+            </h4>
+          </section>
+
+          <h4 className=" font-dm text-white font-normal text-xl text-left pb-6  md:text-2xl  md:font-semibold pb-4">
+            To address the identified challenges and pain points, our approach
+            centered on the strategic development of a business development
+            website that seamlessly combines cutting-edge technologies,
+            user-centric design, and effective communication strategies.
           </h4>
         </section>
 
@@ -76,8 +158,10 @@ const Hero2 = () => {
 
         <section className="white-bg-section    bg-white h-[75vh]  w-full p-2 pb-16 "></section>
 
-        <content className="contents-section flex flex-col justify-center items-start p-2 gap-6
-        md:w-[65%]">
+        <content
+          className="contents-section flex flex-col justify-center items-start p-2 gap-6
+        md:w-[65%]"
+        >
           <h1 className="text-white font-dm text-3xl text-left ">
             So what exactly was accomplished?
           </h1>
@@ -94,14 +178,13 @@ const Hero2 = () => {
             On a different note, I departed from the company before the launch
             of Tongston Investment and Ventures.
           </p>
-          
-            <button className="p-3  text-white font-semibold text-xl   bg-red  w-auto h-auto rounded-md    hover:bg-black hover:border shadow-current 
-           hover:border-red transition-all ease-in-out  duration-1000  hover:transition-all hover:ease-in-out hover:duration-1000">
-            <Link to="#">
-               Visit Live Website
-           </Link>
-            </button>
-           
+
+          <button
+            className="p-3  text-white font-semibold text-xl   bg-red  w-auto h-auto rounded-md    hover:bg-black hover:border shadow-current 
+           hover:border-red transition-all ease-in-out  duration-1000  hover:transition-all hover:ease-in-out hover:duration-1000"
+          >
+            <Link to="#">Visit Live Website</Link>
+          </button>
         </content>
       </div>
     </>

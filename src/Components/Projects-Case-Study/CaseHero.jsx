@@ -1,5 +1,4 @@
 import React from "react";
-import Logbook from "../../assets/images/logbook.jpg";
 
 const Hero = () => {
   return (
@@ -13,10 +12,11 @@ const Hero = () => {
             className=" font-dm text-white font-[500] text-3xl text-left     
           md:text-6xl  md:font-semibold   "
           >
-            Enhancing Service Page for Improved Performance and Reduced Costs
+            Design and Development of a Business Development Website for
+            Tongston entrepreneurship Group
           </h4>
           <h6 className="text-white font-sm font-[24px] text-left text-opacity-20">
-            Tongston Group
+            Tongston Holdings
           </h6>
         </section>
 
@@ -49,7 +49,7 @@ const Hero = () => {
             <div className="3rd-div  flex flex-col gap-3 justify-start items-start ">
               <h2 className=" text-white font-dm text-2xl text-left">Date</h2>
               <h3 className=" text-white font-dm text-2xl text-left  text-opacity-20">
-                April-12-2023
+                April-12-2023 <span className="text-red">to </span> June-21-2023
               </h3>
             </div>
           </content>

@@ -18,21 +18,21 @@ function Procards() {
       image: Ventd,
       link2: "https://t-ventures.tongston.com",
       text: "Tongston Ventures",
-      link: "/case_study",
+      link: "/t-ventures_case_study",
     },
 
     {
       image: Logbook,
       link2: "https://github.com/eabuo21/Final-Year-Bsc-Project",
       text: "Electronic Logbook ",
-      link: "/case_study",
+      link: "/e-logbook_case_study",
     },
 
     {
       image: Urld,
       link2: "https://github.com/eabuo21/Url-Shorten",
       text: "Url Shortener",
-      link: "/case_study",
+      link: "/url-shortener_case_study",
     },
 
   ];

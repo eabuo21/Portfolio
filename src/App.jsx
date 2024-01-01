@@ -9,6 +9,7 @@ import Resume from "../src/Pages/Resume/Resume";
 import CaseStudy from "../src/Pages/CaseStudy/CaseStudies";
 import Feat from "../src/Components/Footer/Footer";
 import { ToastContainer } from "react-toastify";
+import CaseStudy2 from "../src/Pages/CaseStudy2/CaseStudies";
 import Head from "../src/Components/Nav/Head";
 
 function App() {
@@ -24,6 +25,8 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/resume" element={<Resume />} />
         <Route path="/case_study" element={<CaseStudy />} />
+        <Route path="/t-ventures_case_study" element={<CaseStudy2 />} />
+        
       </Routes>
       <ToastContainer />
       <section className="footer-section  bg-secondary_black h-[fixed] p-3">
