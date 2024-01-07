@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Document, Page } from "react-pdf";
 import { faTimes } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import CV from "../../../file/Abuo Emmanuel Cv.pdf";
+import CV from "../../../file/AbuoEmmanuelCv.pdf";
 
 const Modal = ({ onClose }) => {
   return (

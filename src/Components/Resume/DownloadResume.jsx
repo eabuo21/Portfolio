@@ -5,8 +5,8 @@ function DownloadResume() {
   const handleDownload = () => {
     //here we create a virtual link to the file of which to be downloaded
     const a = document.createElement("a");
-    a.href = "/file/Abuo Emmanuel Cv.pdf";
-    a.download = "Abuo Emmanuel Cv.pdf";
+    a.href = "/file/AbuoEmmanuelCv.pdf";
+    a.download = "AbuoEmmanuelCv.pdf";
     document.body.appendChild(a);
     a.click();
     document.body.removeChild(a);

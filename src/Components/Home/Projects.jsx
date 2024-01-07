@@ -4,7 +4,7 @@ import Holdd from "../../assets/images/Projects-pix/Holdd.png";
 import Ventd from "../../assets/images/Projects-pix/Ventd.png";
 import Urld from "../../assets/images/Projects-pix/Urld.png";
 import Logbook from "../../assets/images/logbook.jpg";
-
+import Cyber from "../../assets/images/Projects-pix/georgecyber.png";
 const Projects = () => {
   return (
     <>
@@ -53,7 +53,7 @@ const Projects = () => {
             </section>
           </div>
 
-          <div className="flex flex-row gap-0 justify-start items0-start  md:relative md:mr-[8rem]  md:w-full ">
+          <div className="flex flex-row gap-0 justify-start items-start     md:relative md:mr-[8rem]  md:w-full ">
             <img
               className="project-image h-[177px] w-[400px]   pb-9    md:w-[473px] md:h-[250px]"
               src={Holdd}
@@ -110,7 +110,7 @@ const Projects = () => {
             </section>
           </div>
 
-          <div className="flex flex-row gap-0 justify-start items0-start  w-full      md:relative   md:p-4  ">
+          <div className="flex flex-row gap-0 justify-start items-start  w-full       md:relative   md:p-4  ">
             <img
               className="project-image h-[177px] w-[400px]  pb-9      md:w-[473px] md:h-[250px] "
               src={Ventd}
@@ -159,7 +159,7 @@ const Projects = () => {
               </div>
             </section>
           </div>
-          <div className="flex flex-row gap-0 justify-start items0-start  w-full      md:relative md:mr-[8rem]  md:w-full    ">
+          <div className="flex flex-row gap-0 justify-start items-start  w-full        md:relative md:mr-[8rem]  md:w-full    ">
             <img
               className="project-image h-[177px] w-[400px]  pb-9        md:w-[473px] md:h-[250px]   "
               src={Logbook}
@@ -202,7 +202,7 @@ const Projects = () => {
               </div>
             </section>
           </div>
-          <div className="flex flex-row gap-0 justify-start items0-start  w-full      md:relative   md:p-4  ">
+          <div className="flex flex-row gap-0 justify-start items-start  w-full       md:relative   md:p-4  ">
             <img
               className="project-image h-[177px] w-[400px]  pb-9        md:w-[473px] md:h-[250px]"
               src={Urld}
@@ -253,6 +253,59 @@ const Projects = () => {
   
         </div>
   */}
+
+        <div className="main-wrapper flex flex-col  gap-3    md:flex-row md:gap-0">
+          <div className="second-wrapper md:relative md:left-[1rem]  md:pb-16   md:flex-col  ">
+            <h1 className="heading-text pb-6  font-bold text-white font-serif text-[32px]      ">
+              GeorgeCyber2000 Website
+            </h1>
+            <p className=" font-normal text-white text-base font-serif   pb-6  md:w-[65%]  md:text-xl  md:pb-6">
+              As a committed Frontend Developer, I played a key role in shaping
+              the GeorgeCyber2000 website, translating the company's vision into
+              user-friendly interfaces. My contributions were instrumental in
+              aligning GeorgeCyber2000's online presence with their innovative
+              spirit
+            </p>
+
+            <div className="buttons-section flex flex-row gap-3 pb-6 justify-start items-start   text-white text-base  md:gap-3  md:pb-6">
+              <Link to="#" target="_blank">
+                <button
+                  className="p-3 w-[fixed] flex justify-center items-center  bg-gradient-to-r from-[red] to-[#6f0b6f] rounded-md 
+                 hover:bg-gradient-to-r hover:from-blue-400  hover:to-blue-700 transition-colors ease-in-out duration-800  hover:transition-colors hover:ease-in-out hover:duration-800"
+                >
+                  View Website
+                </button>
+              </Link>
+
+              <Link to="https://eabuo21.github.io/GeorgeCyber.com/" target="blank">
+                <button
+                  className=" gradient-border p-3 w-[fixed] flex justify-center items-center border border-t-red border-r-[#a122a1] border-b-[#a122a1] 
+                border-l-red rounded-md hover:border-t-blue-400  hover:border-l-blue-400  hover:border-b-blue-700 hover:border-r-blue-700"
+                >
+                  View Demo
+                </button>
+              </Link>
+            </div>
+            <section
+              className="impact-section flex flex-col justify-start items-start gap-1 border-l-grey border border-r-0 border-t-0 border-b-0  h-[15vh] 
+             pt-8 p-3  pb-16  md:flex-row"
+            >
+              <div className="impact-text-percentage flex flex-col gap-1 justify-center items-start text-white font-serif font-semibold text-4xl">
+                <h3>40%</h3>
+                <p className="text-base">Increase in SEO ranking</p>
+              </div>
+            </section>
+          </div>
+
+          <div className="flex flex-row gap-0 justify-start items-start    md:relative md:mr-[4rem]  md:w-full ">
+            <img
+              className="project-image h-[177px] w-[400px]   pb-9    md:w-[473px] md:h-[250px]"
+              src={Cyber}
+              alt="project-image  "
+            />
+          </div>
+        </div>
+
         <div
           data-aos="fade-up"
           data-aos-easing="ease-in-linear"

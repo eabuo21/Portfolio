@@ -6,11 +6,14 @@ import { Disclosure, Transition } from "@headlessui/react";
 
 const Navigation = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [menu2Open, setMenu2Open] = useState(false);
 
   const navigationLinks = [
     { name: "Projects", to: "/projects" },
     { name: "Contact", to: "/contact" },
     { name: "Resume", to: "/resume" },
+
+    
   ];
 
   return (
@@ -77,6 +80,9 @@ const Navigation = () => {
             leaveFrom="translate-x-0"
             leaveTo="-translate-x-full"
           >
+
+              
+            
             <Disclosure.Panel className="lg:hidden bg-secondary_black fixed inset-0 z-50 w-auto flex flex-col justify-center items-center gap-4 text-2xl">
               <div className="flex flex-col space-y-4 p-4">
                 {navigationLinks.map((link) => (
@@ -89,6 +95,9 @@ const Navigation = () => {
                     {link.name}
                   </Link>
                 ))}
+
+                
+
                 <button
                   onClick={() => setMenuOpen(false)}
                   className="close-button text-4xl text-white border-2 border-grey  p-1"

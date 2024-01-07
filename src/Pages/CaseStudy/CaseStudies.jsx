@@ -12,7 +12,7 @@ const CaseStudies = () => {
 
   useEffect(() => {
     handleScroll();
-  }, []);
+  }, [1]);
 
   return (
     <>

@@ -13,11 +13,11 @@ const Testimonial = () => {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 800,
+    speed: 900,
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: false,
-
+    smooth: true,
     adaptiveHeight: true,
     accessibility: true,
     autoplay: true,
@@ -52,8 +52,8 @@ const Testimonial = () => {
           key={i}
           className={`custom-dot flex flex-col justify-center items-center hover:border-2 -red border-2     border-white  rounded-[50%]  h-[20px] p-2 transition-all transition-duration-800 ease-in-out ${
             i === activeIndex
-              ? "active"
-              : "    bg-gradient-to-r from-[red] to-violet-950  border-t-blue-950 border-b-red border-l-red border-r-blue-950   transition-all transition-duration-800 ease-in-out" // Add a class for the active dot
+              ? "active  bg-gradient-to-r from-[red] to-violet-950  border-t-blue-950 border-b-red border-l-red border-r-blue-950   transition-all transition-duration-800 ease-in-out"
+              : "   " // Add a class for the active dot
           }`}
         ></div>
       );

@@ -27,7 +27,7 @@ const Hero2 = () => {
             {" "}
             Statement of the Problem
           </heading>
-          <h4 className=" font-dm text-white font-normal text-xl text-left pb-6  md:text-2xl  md:font-semibold  pb-8d">
+          <h4 className=" font-dm text-white font-normal text-xl text-left pb-6  md:text-2xl  md:font-semibold  ">
             Tongston Holdings faced the challenge of establishing and
             maintaining a robust online presence that effectively communicated
             its core values, offerings, and achievements. In an increasingly
@@ -37,7 +37,7 @@ const Hero2 = () => {
             with timely industry updates.
           </h4>
 
-          <h4 className=" font-dm text-white font-normal text-xl text-left pb-6  md:text-2xl  md:font-semibold pb-4">
+          <h4 className=" font-dm text-white font-normal text-xl text-left pb-6  md:text-2xl  md:font-semibold ">
             To address the identified challenges and pain points, our approach
             centered on the strategic development of a business development
             website that seamlessly combines cutting-edge technologies,
@@ -104,7 +104,7 @@ const Hero2 = () => {
             </h4>
           </section>
 
-          <h4 className=" font-dm text-white font-normal text-xl text-left pb-6  md:text-2xl  md:font-semibold pb-4">
+          <h4 className=" font-dm text-white font-normal text-xl text-left pb-6  md:text-2xl  md:font-semibold ">
             To address the identified challenges and pain points, our approach
             centered on the strategic development of a business development
             website that seamlessly combines cutting-edge technologies,

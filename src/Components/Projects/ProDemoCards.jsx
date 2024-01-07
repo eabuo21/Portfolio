@@ -4,6 +4,7 @@ import Holdd from "../../assets/images/Projects-pix/Holdd.png";
 import Ventd from "../../assets/images/Projects-pix/Ventd.png";
 import Logbook from "../../assets/images/logbook.jpg";
 import Urld from "../../assets/images/Projects-pix/Urld.png";
+import Cyber from "../../assets/images/Projects-pix/georgecyber.png";
 
 function Procards() {
   const Cards = [
@@ -35,6 +36,13 @@ function Procards() {
       link: "/url-shortener_case_study",
     },
 
+        {
+      image: Cyber,
+      link2: "https://eabuo21.github.io/GeorgeCyber.com/",
+      text: "GeorgeCyber2000",
+      link: "#",
+    },
+
   ];
 
   return (
@@ -50,7 +58,7 @@ function Procards() {
             data-aos-delay="50"
             data-aos-once="true"
             key={index}
-            className=" "
+            className="   "
           >
             <ProDemo
               image={card.image}

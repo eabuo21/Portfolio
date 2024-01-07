@@ -8,7 +8,6 @@ import Bj from "../../assets/images/bjtech.jpeg";
 function Cards() {
   const card = [
     {
-   
       frontTitle: Nipc,
       Description: "Technical Support Engr (SIWES)",
       backContent:
@@ -16,26 +15,22 @@ function Cards() {
     },
 
     {
-    
       frontTitle: Coffey,
-      Description: "Technical Support Specialist /Web Oops",
+      Description: "Web Developer /Social Media Manager",
       backContent:
-        "CoffeyCrown excels in turnkey staffing solutions, enabling clients to focus on their core business. I served as a Web Ops and Technical Support Specialist for 9 months under a contract..",
+        "CoffeyCrown excels in turnkey staffing solutions, enabling clients to focus on their core business. I served as a Web Developer and Social Media Manager for 9 months under a contract..",
     },
 
     {
-   
       frontTitle: Bj,
-      Description: "Software Dev /IT Consultant",
+      Description: "Web Developer /IT Consultant",
       backContent:
         "BJ Technologies is an award-winning IT firm specializing in crafting software solutions and implementing IT projects for clients and governments. I served as a Web Developer and IT Consultant for one year.",
     },
 
-    
     {
-  
       frontTitle: Tongs,
-      Description: "Software Dev /IT Consultant",
+      Description: "Web Developer /IT Graduate Consultant",
       backContent:
         "Tongston, a multi-award-winning group, specializes in entrepreneurial education, enterprise, finance, and media, using technology to drive global sustainable socio-economic development for individuals, government, and institutions. I am a dual-role IT Graduate Consultant Officer and Web Developer at Tongston.",
     },
@@ -55,11 +50,9 @@ function Cards() {
           className=" "
         >
           <FlipCards
-          
             frontTitle={card.frontTitle}
             Description={card.Description}
             backContent={card.backContent}
-
           />
         </div>
       ))}
