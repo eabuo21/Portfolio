@@ -12,7 +12,7 @@ import { ToastContainer } from "react-toastify";
 import CaseStudy2 from "../src/Pages/CaseStudy2/CaseStudies";
 import Head from "../src/Components/Nav/Head";
 import { RiseLoader } from "react-spinners";
-import Chatbot from "./Open-AI/Chat";
+import Chatbot from "./Components/Open-AI/Chat";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faComment } from "@fortawesome/free-solid-svg-icons";
 

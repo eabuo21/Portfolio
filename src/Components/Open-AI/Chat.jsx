@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { getAIResponse } from "../Open-AI/Aiintegrate";
+import { getAIResponse } from "../../Components/Open-AI/Aiintegrate";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCopy, faCheck } from "@fortawesome/free-solid-svg-icons";
 

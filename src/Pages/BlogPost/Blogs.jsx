@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import Blogs from "../../Components/BlogsComp/BlogsList";
-import Chatbot from "../../Open-AI/Chat";
+import Chatbot from "../../Components/Open-AI/Chat";
 
 class BlogPost extends React.Component {
   componentDidMount() {
