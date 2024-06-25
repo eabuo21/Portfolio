@@ -37,7 +37,7 @@ const Chatbot = ({ onClose }) => {
         >
           &times;
         </button>
-        <h1 className="text-2xl mb-4">Chat With AI</h1>
+        <h1 className="text-2xl mb-4"> AI Chat</h1>
         <div className="mb-4">
           <textarea
             type="text"

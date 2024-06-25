@@ -68,13 +68,13 @@ function App() {
           <div className="chat-container fixed top-[85%]  left-[90%]      md:left-[95%] transform -translate-y-1/2 -translate-x-1/2 z-50">
             <button
               onClick={() => Openchat()}
-             
-              
+              // onMouseLeave={()=>Closechat()}
+
               className="chat-button relative rounded-[50%] bg-blue-700 text-white h-[60px] w-[60px] flex justify-center items-center p-2 transition-transform duration-300 ease-in-out"
             >
               <FontAwesomeIcon icon={faComment} className="text-4xl" />
             </button>
-            onMouseLeave={()=>Closechat() }
+
             {openaichat && <Chatbot onClose={Closechat} />}
           </div>
 
