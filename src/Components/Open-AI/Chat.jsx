@@ -30,7 +30,7 @@ const Chatbot = ({ onClose }) => {
 
   return (
     <div className="chat-modal-container fixed inset-0 flex flex-col items-center justify-center bg-black bg-opacity-50 z-50 ">
-      <div className="absolute bg-white w-full  bottom-[20px] w-[50vh]  h-[300px] right-[22px]        md:bottom-[20px]   md:absolute md:right-[50px] md:w-[700px] md:h-[300px] p-4 rounded-lg ">
+      <div className="absolute bg-white   bottom-[20px] w-[300px]  h-[300px] right-[22px]        md:bottom-[20px]   md:absolute md:right-[50px] md:w-[700px] md:h-[300px] p-4 rounded-lg ">
         <button    
           onClick={onClose}
           className="absolute top-2 right-2 bg-gray-800 text-white text-xl rounded-full h-8 w-8 flex items-center justify-center"

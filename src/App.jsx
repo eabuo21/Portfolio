@@ -11,7 +11,7 @@ import Feat from "../src/Components/Footer/Footer";
 import { ToastContainer } from "react-toastify";
 import CaseStudy2 from "../src/Pages/CaseStudy2/CaseStudies";
 import Head from "../src/Components/Nav/Head";
-import { RiseLoader } from "react-spinners";
+import { PuffLoader } from "react-spinners";
 import Chatbot from "./Components/Open-AI/Chat";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faComment } from "@fortawesome/free-solid-svg-icons";
@@ -52,10 +52,10 @@ function App() {
     <div className="App">
       {loading ? (
         <div className="loader-container   flex  justify-center items-center fixed top-0 left-0 right-0 bottom-0  z-50 h-[100vh]">
-          <RiseLoader
+          <PuffLoader
             color={"red"}
             loading={true}
-            size={25}
+            size={65}
             speedMultiplier={0.5}
           />
         </div>

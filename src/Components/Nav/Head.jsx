@@ -1,5 +1,5 @@
 // Navigation.js
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Fragment, useState } from "react";
 import { Disclosure, Transition } from "@headlessui/react";
@@ -10,27 +10,36 @@ const Navigation = () => {
 
   const navigationLinks = [
     { name: "Projects", to: "/projects" },
-    {name: "Blogs", to: "/blogs"},
+    // { name: "Blogs", to: "/blogs" },
     { name: "Resume", to: "/resume" },
-       { name: "Contact", to: "/contact" },
+    { name: "Contact", to: "/contact" },
   ];
 
+  useEffect(() => {
+    if (menuOpen) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "auto";
+    }
+    return () => (document.body.style.overflow = "auto");
+  }, [menuOpen]);
+
   return (
-    <Disclosure as="nav" className="bg-secondary_black p-4    ">
+    <Disclosure as="nav" className="bg-secondary_black p-2    ">
       {({ open }) => (
         <>
           <div className="container mx-auto flex items-center justify-between  ">
             {/* Logo */}
             <div className="flex-shrink-0 text-white ">
               <Link to="/" onClick={() => setMenuOpen(false)}>
-                <div className="my-logo p-2 bg-gradient-to-br from-red  to-violet-950 rounded-[50%] font-bold text-[32px] font-passion text-white">
+                <div className="my-logo p-2 bg-gradient-to-br from-red  to-violet-950 rounded-[50%] font-bold text-[32px] font-passion text-white  ml-5">
                   EA
                 </div>
               </Link>
             </div>
 
             {/* Navigation Links */}
-            <div className=" desktop-navigation      lg:flex lg:flex-row space-x-4 ">
+            <div className=" desktop-navigation      lg:flex lg:flex-row space-x-4  mr-7">
               {navigationLinks.map((link) => (
                 <Link
                   key={link.name}
@@ -72,15 +81,15 @@ const Navigation = () => {
           <Transition
             show={menuOpen}
             as={Fragment}
-            enter="transition duration-300 ease-in-out transform"
-            enterFrom="-translate-x-full"
-            enterTo="translate-x-0"
-            leave="transition duration-200 ease-in transform"
-            leaveFrom="translate-x-0"
-            leaveTo="-translate-x-full"
+            enter="transition duration-300 ease-in-out "
+            enterFrom="-translate-y-full"
+            enterTo="translate-y-0"
+            leave="transition duration-200 ease-in "
+            leaveFrom="translate-y-0"
+            leaveTo="-translate-y-full"
           >
-            <Disclosure.Panel className="lg:hidden bg-secondary_black fixed inset-0 z-50 w-auto flex flex-col justify-center items-center gap-4 text-2xl">
-              <div className="flex flex-col space-y-4 p-4">
+            <Disclosure.Panel className="lg:hidden bg-gradient-to-br from-black  to-violet-950  h-[400px] fixed inset-0 z-50 w-auto flex flex-col justify-center items-center gap-4 text-2xl">
+              <div className="flex flex-col  justify-center items-center space-y-4 p-4">
                 {navigationLinks.map((link) => (
                   <Link
                     key={link.name}
